@@ -1,0 +1,8 @@
+{
+    "powerledgerData": {
+        "getAll": "https://powerledger.herokuapp.com/api/v1/powerLedger",
+        "post": "https://powerledger.herokuapp.com/api/v1/powerLedger",
+        "put": "https://powerledger.herokuapp.com/api/v1/powerLedger",
+        "delete": "https://powerledger.herokuapp.com/api/v1/powerLedger"
+    }
+}
