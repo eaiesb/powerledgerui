@@ -197,7 +197,7 @@ const PowerLedger=()=>{
           <TextField autoFocus margin="dense" id="wattCapacity" onChange={(e) => { setWattCapacity(e.target.value) }}value={wattCapacity} label="Watt Capacity" type="text" fullWidth/>
         </DialogContent>
         <DialogActions>
-          <Button sx={{backgroundColor: "red"}} onClick={handleClose}>Cancel</Button>
+          <Button  onClick={handleClose}>Cancel</Button>
           <Button onClick={() => { addOrEditRecordAndClose(addOrEdit) }}>Save</Button>
         </DialogActions>
   </Dialog>
