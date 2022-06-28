@@ -1,8 +1,10 @@
 {
-    "powerledgerData": {
+    "pledgerData": {
         "getAll": "https://powerledger.herokuapp.com/api/v1/powerLedger",
         "post": "https://powerledger.herokuapp.com/api/v1/powerLedger",
         "put": "https://powerledger.herokuapp.com/api/v1/powerLedger",
-        "delete": "https://powerledger.herokuapp.com/api/v1/powerLedger"
+        "delete": "https://powerledger.herokuapp.com/api/v1/powerLedger",
+        "findPostCodesBetween":"https://powerledger.herokuapp.com/api/v1/findByPostCodesBetweengroupByNameAnd/",
+        "aggressionReports" : "https://powerledger.herokuapp.com/api/v1/aggregationReports"
     }
 }
